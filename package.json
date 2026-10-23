@@ -1,0 +1,10 @@
+{
+  "name": "pickup-counter-root",
+  "private": true,
+  "scripts": {
+    "send-webhook": "npm --prefix backend run send-webhook --",
+    "test": "npm --prefix backend test",
+    "test:backend": "npm --prefix backend test",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build"
+  }
+}
